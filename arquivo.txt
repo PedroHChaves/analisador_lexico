@@ -1,0 +1,145 @@
+programa 
+utilize
+bibIO
+const
+inicio
+fim
+inteiro
+real
+caractere
+palavra
+logico
+var
+arranjo
+leia
+leialn
+escreva
+escrevaln
+se
+entao
+senao
+para
+de
+ate
+faca
+enquanto
+repita
+procedimento
+funcao
+
+=
+==
+<>
+<
+<=
+>
+>=
+||
+&&
+!
++
+-
+*
+/
+%
+^
+:
+
+(
+)
+"
+'
+.
+,
+{
+}
+[
+]
+;
+
+INICIO_PROG
+UTIL_BIB
+BIB_IO
+CONSTANTE
+INICIO_BLOCO
+FIM_BLOCO
+INTEIRO_T
+REAL_T
+CARACTERE_T
+PALAVRA_T
+LOGICO_T
+VARIAVEL
+ARRAY
+LER
+LER_LN
+ESCREVER
+ESCREVER_LN
+IF
+THEN
+ELSE
+FOR
+DE
+ATE
+FACA
+WHILE
+DO_WHILE
+PROC
+FUNC
+
+ATRIB
+COMPARE
+DIFERENTE
+MENOR
+MENOR_IGUAL
+MAIOR
+MAIOR_IGUAL
+OU
+E
+NOT
+MAIS
+MENOS
+MULT
+DIV
+MOD
+EXP
+DOIS_P
+
+ABRE_P
+FECHA_P
+ASPAS_DUPLA
+ASPAS
+PONTO
+VIRGULA
+ABRE_CHA
+FECHA_CHA
+ABRE_COL
+FECHA_COL
+PV
+
+programa circulo;
+utilize bibIO;
+
+const pi = 3.1415;
+
+funcao calculaArea(pi: real; raio: real): real
+inicio
+	calculaArea = pi*r^2;
+fim;
+
+procedimento printArea(pi: real; raio: real);
+var area: real;
+inicio
+	area = calculaArea(pi, raio);
+	escrevaln('A área é: ', area);
+fim;
+
+var r=1.0, pi=0: real;
+    p: palavra;
+
+inicio
+	escreva('Digite o valor do raio:');
+	leia(r);
+	printArea(pi, r);
+fim.
+
+Arrumar arrumar espaçamento.
